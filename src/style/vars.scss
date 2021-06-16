@@ -5,3 +5,36 @@
   height:30%;
   width:30%;
 }
+
+@mixin triangle {
+  display : inline-block;
+  height : 0;
+  width : 0;
+  border-right : 45px solid transparent;
+  border-bottom : 45px solid #FFF;
+  border-left : 45px solid transparent;
+}
+
+@mixin big-rounded-shape{
+  border-radius: 50%;
+  border: 14px solid #FFF;
+  height: 101%;
+  margin: -1px;
+}
+
+@mixin ashikaga-form{
+  height: 40px;
+  width: 99%;
+  background-color: #FFF;
+}
+
+
+@mixin kumi-form{
+  position:absolute;
+  height:36px;
+  width: 70%;
+  background-color: #fff;
+  transform: rotate(90deg); 
+  border: 3px solid #000;
+  padding: 3px;
+}
