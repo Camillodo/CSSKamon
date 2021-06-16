@@ -1,16 +1,71 @@
 @use './reset.css';
 @use './vars.scss';
 
-.app {
-  width: 800px;
-  margin: 1em auto;
-  text-align: center;
+// general rules
+body{
+  background-color: #000;
+}
+.app{
+  display:flex;
+  flex-wrap: wrap;
+  max-width: 80vw;
+  margin: 0 auto;
+  justify-content: center;
 }
 
-.app img {
-  max-width: 550px;
+.mon{
+  height: 250px;
+  width: 250px;
+  border: 8px solid #FFF;
+  border-radius: 50%;
+  margin:5%;
+  padding:2%;
 }
 
-h1{
-  font-size:3rem;
+// Takeda
+.takeda{
+  position: relative;
+  height: 100%;
+  .takeda_1, .takeda_2, .takeda_3, .takeda_4{
+    @include vars.takeda-shape;
+  }
+  .takeda_1{
+    top:14%;
+    left:35.5%;
+  }
+  .takeda_2{
+    top:56%;
+    left:36%;
+  }
+  .takeda_3{
+    top:35%;
+    left:11%;
+  }
+  .takeda_4{
+    right:10%;
+    height:30%;
+    top:34.5%;
+  }
+}
+
+// Hojo
+
+.hojo{
+  height:100%;
+  width: 100%;
+  position: relative;
+  margin-top: 45%;
+.hojo_1, .hojo_2, .hojo_3{
+  display : inline-block;
+  height : 0;
+  width : 0;
+  border-right : 45px solid transparent;
+  border-bottom : 45px solid #FFF;
+  border-left : 45px solid transparent;
+}
+.hojo_3{
+  position: absolute;
+  top:-48px;
+  left: 46px;
+}
 }
