@@ -337,3 +337,82 @@ h1{
     transform: rotate(-135deg)skew(9deg)
   }
 }
+
+
+.sumitate{
+  position: relative;
+  .sumitate-1{
+    height:45px;
+    width: 45px;
+    background-color: #FFF;
+    margin: 95px auto;
+    transform: rotate(45deg);
+    padding-top: 10px;
+  }
+  .sumitate-1a{
+    width: 15px;
+    height: 30px;
+    border: 4px solid #000;
+    margin: -2px 10px 0;
+  }
+  .sumitate-1b{
+    width: 18px;
+    height: 12px;
+    background-color: #FFF;
+    margin: -26px 14px;
+    display: block;
+    position: relative;
+    z-index: 1;
+  }
+  .sumitate-1c{
+    width: 16px;
+    height: 43px;
+    border: 4px solid #000;
+    margin: 10px 21px  0;
+    border-left: 4px solid transparent;
+  }
+  .sumitate-2{
+    position: absolute;
+    top:-100px;
+    left: 20px;
+    height:45px;
+    width: 45px;
+    background-color: #FFF;
+    margin: 100px auto;
+    transform: rotate(45deg);
+    padding-top: 10px;
+  }
+  .sumitate-3{
+    position: absolute;
+    top:-100px;
+    left:170px;
+    height:45px;
+    width: 45px;
+    background-color: #FFF;
+    margin: 100px auto;
+    transform: rotate(45deg);
+    padding-top: 10px;
+  }
+  .sumitate-4{
+    position: absolute;
+    top:-170px;
+    left:94px;
+    height:45px;
+    width: 45px;
+    background-color: #FFF;
+    margin: 100px auto;
+    transform: rotate(45deg);
+    padding-top: 10px;
+  }
+  .sumitate-5{
+    position: absolute;
+    top: -30px;
+    left:94px;
+    height:45px;
+    width: 45px;
+    background-color: #FFF;
+    margin: 100px auto;
+    transform: rotate(45deg);
+    padding-top: 10px;
+  }
+}
