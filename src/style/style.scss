@@ -48,10 +48,10 @@ h1{
   }
   .takeda_3{
     top:34.5%;
-    left:12%;
+    left:11%;
   }
   .takeda_4{
-    right:11%;
+    right:10%;
     top:34.5%;
   }
 }
@@ -139,7 +139,7 @@ h1{
       border-right : 8px solid transparent;
       border-bottom : 9px solid #FFF;
       border-left : 8px solid transparent;
-      transform: rotate(90deg) translate(-50px, -170px);
+      transform: rotate(90deg) translate(-50px, -169px);
     }
   .chigai-2{
     height: 6px;
@@ -188,7 +188,7 @@ h1{
       border-right : 8px solid transparent;
       border-bottom : 9px solid #FFF;
       border-left : 8px solid transparent;
-      transform: rotate(90deg) translate(-50px, -170px);
+      transform: rotate(90deg) translate(-50px, -169px);
       z-index: 2;
     }
   .chigai-2b{
@@ -212,21 +212,128 @@ h1{
   }
   .kumi-2{
     @include vars.kumi-form;
-    top:105px;
+    top:106px;
     left:90px;
     transform: rotate(90deg); 
   }
   .kumi-3{
     @include vars.kumi-form;
-    top: 160px;
-    left:38px;
+    top: 162px;
+    left:35px;
     transform: rotate(180deg); 
   }
   .kumi-4{
     @include vars.kumi-form;
-    top: 100px;
+    top: 106px;
     left:-20px;
     transform: rotate(90deg); 
 
+  }
+}
+.hoso{
+  position: relative;
+.hoso_0 {
+  position: absolute;
+  top:70px;
+  left:16px;
+  .hoso_0a{
+    width: 70px;
+    height:50px;
+    background-color: #FFF;
+    transform: skew(35deg) translateX(12px);
+  }
+  .hoso_0b{
+    width: 70px;
+    height:50px;
+    background-color: #FFF;
+    transform: skew(-35deg) translate(84px, -50px);
+    position: absolute;
+    left:0;
+  }
+  .hoso_0c{
+    width: 60px;
+    height:60px;
+    background-color: #FFF;
+    transform: rotate(-55deg) translate(21px, 70px) skew(-20deg) ;
+    position: absolute;
+    top:-52px;
+    border-bottom: 3px solid #000;
+    border-left: 3px solid #000;
+  }
+  .hoso_0d{
+    width: 60px;
+    height:60px;
+    background-color: #FFF;
+    transform: rotate(-55deg) translate(24px, 71px) skew(-20deg) ;
+    position: absolute;
+    left:0;
+    border-top: 3px solid #000;
+    border-right: 3px solid #000;
+
+  }
+  .hoso_0e{
+    width: 70px;
+    height:49px;
+    background-color: #FFF;
+    transform: translate(12px, 3px) skew(-35deg) scaleY(-1) ;
+    position: absolute;
+    left:0;
+  }
+}
+.hoso_0f{
+  width: 70px;
+  height:49px;
+  background-color: #FFF;
+  transform: translate(120px, 3px) skew(35deg) scaleY(-1) ;
+  position: absolute;
+  left:0;
+}
+}
+
+.igetani{
+  @include vars.big-rounded-shape;
+  position: relative;
+  .igetani-1{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    border: 18px solid #FFF;
+    margin:74px auto;
+  }
+  .igetani-2{
+    position: absolute;
+    height:18px;
+    width:135px;
+    background-color: #FFF;
+    top:64px;
+    left: 4px;
+    transform: rotate(135deg) skew(-9deg)
+  }
+  .igetani-3{
+    position: absolute;
+    height:18px;
+    width:135px;
+    background-color: #FFF;
+    top:128px;
+    left: 5px;
+    transform: rotate(-135deg) skew(-9deg)
+  }
+  .igetani-4{
+    position: absolute;
+    height:18px;
+    width:135px;
+    background-color: #FFF;
+    top:127px;
+    left: 73px;
+    transform: rotate(135deg) skew(9deg)
+  }
+  .igetani-5{
+    position: absolute;
+    height:18px;
+    width:135px;
+    background-color: #FFF;
+    top:64px;
+    left: 71px;
+    transform: rotate(-135deg)skew(9deg)
   }
 }
