@@ -18,8 +18,10 @@
 @mixin big-rounded-shape{
   border-radius: 50%;
   border: 14px solid #FFF;
-  height: 101%;
+  height: 102%;
+  width: 102%;
   margin: -1px;
+  transform: translate(-1px, -1px);
 }
 
 @mixin ashikaga-form{
